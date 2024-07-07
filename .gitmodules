@@ -1,0 +1,6 @@
+[submodule "themes/lugo"]
+	path = themes/lugo
+	url = https://github.com/lukesmithxyz/lugo
+[submodule "themes/HugoTeX"]
+	path = themes/HugoTeX
+	url = https://github.com/kaisugi/HugoTeX
