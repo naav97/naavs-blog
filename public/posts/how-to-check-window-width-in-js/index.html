@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8" />
 
-  <title>How to see the MySQL log - naavs blog</title>
+  <title>How to check window width in js - naavs blog</title>
 
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -32,7 +32,7 @@
     <div class="container">
       <div class="posts-heading">
         
-          <h1>How to see the MySQL log</h1>
+          <h1>How to check window width in js</h1>
           
         
       </div>
@@ -45,36 +45,23 @@
       <div class="postmeta">
         <span class="meta-post">
   <i class="fa fa-calendar-alt"></i>
-  Jul 7, 2024
+  Dec 25, 2024
   
 </span>
       </div>
       <br>
       
     <p><strong>WARNING</strong>: Most of the information in this post was created by the free tier of CharGPT in 2024</p>
-<p>This guide will be focused on Ubuntu, for other systems instructions may be similar.</p>
-<h2 id="find-your-_mycnf_-file">Find your <em>my.cnf</em> file</h2>
-<p>Depending on the system and MySQL version, etc. The <em>my.cnf</em> file may be in different places. Some common places to search for are:</p>
-<ul>
-<li>/etc/mysql/my.cnf</li>
-<li>/etc/my.cnf</li>
-</ul>
-<p>If you don&rsquo;t find the config file in those places, you can try the following:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>sudo find -name my.cnf /
-</span></span></code></pre></div><p>The file may be called my.ini</p>
-<h2 id="check-the-configuration">Check the configuration</h2>
-<p>Ones you are in the config file, look for these two settings:</p>
-<h3 id="general_log">general_log</h3>
-<p>This setting needs to be &ldquo;ON&rdquo;</p>
-<h3 id="general_log_file">general_log_file</h3>
-<p>This setting will tell you where MySQL is saving the logs. The value should be an absolute path to a file.</p>
-
+<p>Checking the width of the window in javascript is actully really easy. The wondow object has a innerWidth property.</p>
+<p>So for example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JavaScript" data-lang="JavaScript"><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Window width: &#34;</span> <span style="color:#f92672">+</span> window.<span style="color:#a6e22e">innerWidth</span>);
+</span></span></code></pre></div>
 
 
       
         <div class="blog-tags">
           
-          <a href="http://localhost:1313/tags/mysql/">MySQL</a>&nbsp;
+          <a href="http://localhost:1313/tags/js/">JS</a>&nbsp;
           
         </div>
       

@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/how-to-see-the-mysql-log/</link>
       <pubDate>Sun, 07 Jul 2024 17:37:39 -0500</pubDate>
       <guid>http://localhost:1313/posts/how-to-see-the-mysql-log/</guid>
-      <description>How to see the MySQL log WARNING: Most of the information in this post was created by the free teer of CharGPT in 2024&#xA;This guide will be focused in ubuntu, for other systems instructions may be similar.&#xA;Find your my.cnf file Depending on the system and MySQL version, etc. The my.cnf file may be in diferent places. Some common places to search for are:&#xA;/etc/mysql/my.cnf /etc/my.cnf If you dont find the config file in those places you can try the following:</description>
+      <description>&lt;p&gt;&lt;strong&gt;WARNING&lt;/strong&gt;: Most of the information in this post was created by the free tier of CharGPT in 2024&lt;/p&gt;&#xA;&lt;p&gt;This guide will be focused on Ubuntu, for other systems instructions may be similar.&lt;/p&gt;&#xA;&lt;h2 id=&#34;find-your-_mycnf_-file&#34;&gt;Find your &lt;em&gt;my.cnf&lt;/em&gt; file&lt;/h2&gt;&#xA;&lt;p&gt;Depending on the system and MySQL version, etc. The &lt;em&gt;my.cnf&lt;/em&gt; file may be in different places. Some common places to search for are:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;/etc/mysql/my.cnf&lt;/li&gt;&#xA;&lt;li&gt;/etc/my.cnf&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;If you don&amp;rsquo;t find the config file in those places, you can try the following:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

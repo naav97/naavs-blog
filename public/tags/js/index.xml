@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on naavs blog</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on naavs blog</description>
+    <title>JS on naavs blog</title>
+    <link>http://localhost:1313/tags/js/</link>
+    <description>Recent content in JS on naavs blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 25 Dec 2024 18:58:04 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/js/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to check window width in js</title>
       <link>http://localhost:1313/posts/how-to-check-window-width-in-js/</link>
       <pubDate>Wed, 25 Dec 2024 18:58:04 -0500</pubDate>
       <guid>http://localhost:1313/posts/how-to-check-window-width-in-js/</guid>
       <description>&lt;p&gt;&lt;strong&gt;WARNING&lt;/strong&gt;: Most of the information in this post was created by the free tier of CharGPT in 2024&lt;/p&gt;&#xA;&lt;p&gt;Checking the width of the window in javascript is actully really easy. The wondow object has a innerWidth property.&lt;/p&gt;&#xA;&lt;p&gt;So for example:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-JavaScript&#34; data-lang=&#34;JavaScript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Window width: &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; window.&lt;span style=&#34;color:#a6e22e&#34;&gt;innerWidth&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>How to see the MySQL log</title>
-      <link>http://localhost:1313/posts/how-to-see-the-mysql-log/</link>
-      <pubDate>Sun, 07 Jul 2024 17:37:39 -0500</pubDate>
-      <guid>http://localhost:1313/posts/how-to-see-the-mysql-log/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;WARNING&lt;/strong&gt;: Most of the information in this post was created by the free tier of CharGPT in 2024&lt;/p&gt;&#xA;&lt;p&gt;This guide will be focused on Ubuntu, for other systems instructions may be similar.&lt;/p&gt;&#xA;&lt;h2 id=&#34;find-your-_mycnf_-file&#34;&gt;Find your &lt;em&gt;my.cnf&lt;/em&gt; file&lt;/h2&gt;&#xA;&lt;p&gt;Depending on the system and MySQL version, etc. The &lt;em&gt;my.cnf&lt;/em&gt; file may be in different places. Some common places to search for are:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;/etc/mysql/my.cnf&lt;/li&gt;&#xA;&lt;li&gt;/etc/my.cnf&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;If you don&amp;rsquo;t find the config file in those places, you can try the following:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
